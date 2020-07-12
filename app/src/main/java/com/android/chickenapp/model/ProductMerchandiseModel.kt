@@ -12,5 +12,7 @@ data class ProductMerchandiseModel(
     @Json(name = "pr_image")
     val image: String,
     @Json(name = "product_delivery_type")
-    val deliveryType: String
+    val deliveryType: String,
+    @Json(name = "pdp_net_wt")
+    val netWeight: String
                                    )
